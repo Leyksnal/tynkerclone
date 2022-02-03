@@ -1,5 +1,6 @@
 import './App.css';
 
+
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
         </header>
         <div className="content-wrapper">
           <div className="content">
+
             <h2>Coding Made Easy</h2>
             <p>The fun way to learn programming and develop problem-solving & critical thinking skills! Ages 5-18</p>
             <button className='hero-btn'>GET STARTED FOR FREE</button>
@@ -94,6 +96,71 @@ function App() {
             </div>
             <div className="educator-img"></div>
           </div>
+      </div>
+
+      <div className="app-section">
+        <div className="app-section-wrapper">
+          <h2>3 Highly-Rated Mobile Apps for Learning Code</h2>
+          <p>Download Tynker apps and learn to code on the go.</p>
+          <button className='hero-btn start-btn parent-btn'>LEARN MORE</button>
+          <div className="apps">
+            <div className="app-img"></div>
+            <div className="app-info-wrapper">
+              <div className="app-card">
+                <div className="app-thumb-img1"></div>
+                <div className="app-details">
+                  <h2>Tynker Junior</h2>
+                  <p>Tap-Tap picture coding with voice-overs. Pre-readers solve story-based puzzles and build their first programs in coding sandboxes. Ages 5-7</p>
+                  <div className="review">
+                    <div className="stars"></div>
+                    <p>4.7</p>
+                    <p>10,400+ reviews</p>
+                  </div>
+                </div>
+              </div>
+              <div className="app-card">
+                <div className="app-thumb-img2"></div>
+                <div className="app-details">
+                  <h2>Tynker Junior</h2>
+                  <p>Tap-Tap picture coding with voice-overs. Pre-readers solve story-based puzzles and build their first programs in coding sandboxes. Ages 5-7</p>
+                  <div className="review">
+                    <div className="stars"></div>
+                    <p>4.7</p>
+                    <p>10,400+ reviews</p>
+                  </div>
+                </div>
+              </div>
+              <div className="app-card">
+                <div className="app-thumb-img3"></div>
+                <div className="app-details">
+                  <h2>Tynker Junior</h2>
+                  <p>Tap-Tap picture coding with voice-overs. Pre-readers solve story-based puzzles and build their first programs in coding sandboxes. Ages 5-7</p>
+                  <div className="review">
+                    <div className="stars"></div>
+                    <p>4.7</p>
+                    <p>10,400+ reviews</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="app-section iot-section">
+        <div className="app-section-wrapper iot-wrapper">
+          <h2>A Mini-Computer for the Internet of Things!</h2>
+          <div className="info-wrapper iot-holder">
+            <div className="info-content iot-content">
+              <p>The BBC Doctor Who HiFive Inventor is a visually stunning IoT-enabled hand-shaped mini-computer designed to teach kids how to control robots or interface with IoT systems to investigate the world around them.</p>
+              <p>Younger students will begin their learning journey with visual block coding and advanced students with Micropython.</p>
+              <p>The HiFive Inventor was developed by Tynker in collaboration with BBC Learning and SiFive, a fabless RISC-V semiconductor company.</p>
+              <p className='learn'>Learn More:</p>
+              <a href="#">www.HiFiveInventor.com</a>
+            </div>
+            <div className="iot-img"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -175,10 +175,22 @@ header{
   color: #1598A8;
 }
 
+.info-content > a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #1598A8;
+}
+
+.info-content > a:hover{
+  color: #00e1ff;
+}
+
 
 .info-content > p a:hover{
   color: #00e1ff;
 }
+
+
 .info-content > p{
   font-size: 1.3rem;
   width: 700px;
@@ -345,7 +357,143 @@ header{
 .educator-section{
   background-color: #EBFCFF;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 900px;
+}
+
+.app-section{
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 100px;
+}
+
+.app-section-wrapper{
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-section-wrapper > h2{
+  font-size: 2.5rem;
+}
+
+.app-section-wrapper > p{
+  font-size: 1.4rem;
+  margin-top: -20px;
+}
+
+.apps{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.app-img{
+  background-image: url(./img/graphic-mobile2x2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 600px;
+  margin-top: 30px;
+
+}
+
+.app-details > h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.app-details > p{
+  font-size: 1.3rem;
+  width: 450px;
+  margin-top: -25px;
+}
+
+.app-card{
+  display: flex;
+  justify-content: space-between;
+  width: 540px;
+}
+
+.app-thumb-img1{
+  background-image: url(./img/icon-junior2x2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  margin: 40px 0px 0px 0px;
+  border-radius: 15px;
+}
+
+.app-thumb-img2{
+  background-image: url(./img/icon-app2x.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  margin: 40px 0px 0px 0px;
+  border-radius: 15px;
+}
+
+.app-thumb-img3{
+  background-image: url(./img/icon-mod2x2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  margin: 40px 0px 0px 0px;
+  border-radius: 15px;
+}
+
+.stars{
+  background-color: #1950A0;
+  width: 100px;
+  height: 20px;
+}
+
+.review{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+
+.iot-wrapper{
+  width: 100%;
+}
+
+.iot-holder{
+  justify-content: space-between;
+  margin-top: -80px;
+}
+
+.iot-section{
+  margin-top: 20px;
+}
+
+.iot-content > p{
+  width: 500px;
+}
+
+.learn{
+  margin-bottom: -0px;
+}
+
+.iot-img{
+  background-image: url(./img/graphic-bbc2x2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 600px;
+  margin-right: 60px;
 }

@@ -127,6 +127,11 @@ header{
   font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;
+  transition: all 500ms;
+}
+
+.hero-btn:hover{
+  background-color: #fd6500;
 }
 
 .underline{
@@ -147,4 +152,200 @@ header{
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.info-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info-wrapper{
+  width: 88%;
+  display: flex;
+  align-items: center;
+}
+
+.info-content > h2{
+  font-size: 2.5rem;
+}
+
+.info-content > p a{
+  text-decoration: none;
+  color: #1598A8;
+}
+
+
+.info-content > p a:hover{
+  color: #00e1ff;
+}
+.info-content > p{
+  font-size: 1.3rem;
+  width: 700px;
+}
+
+.info-img{
+  background-image: url(./img/learning-path2x2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 700px;
+  height: 450px;
+  margin-bottom: -100px;
+  margin-left: 40px;
+}
+
+.start-btn{
+  width: 250px;
+  height: 55px;
+  font-size: 1.2rem;
+}
+
+.new-info{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.new-info-wrapper{
+  width: 88%;
+}
+
+.new-info-wrapper > h2{
+  font-size: 2.5rem;
+}
+
+.new-info-col{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.new-info-cols{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-details{
+  width: 350px;
+  margin-left: 30px;
+}
+
+.info-details > h2{
+  font-size: 1.6rem;
+}
+
+.info-details > p{
+  font-size: 1.3rem;
+  width: 360px;
+}
+
+.new-info-img1{
+  background-image: url(./img/icon-apcsa2x2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 110px;
+  margin-top: -20px;
+}
+
+.new-info-img2{
+  background-image: url(./img/icon-tutor.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 110px;
+  margin-top: -20px;
+}
+
+.new-info-img3{
+  background-image: url(./img/byjus2x.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 110px;
+  margin-top: -20px;
+}
+
+.learn-btn > a{
+  color: #1598A8;
+  text-decoration: none;
+}
+
+.learn-btn > a:hover{
+  color: #00e1ff;
+}
+
+.parent-section{
+  background-color: #EBFCFF;
+  width: 100%;
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .parent-section::before{
+  content: ' ';
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23EBFCFF' fill-opacity='1' d='M0,96L26.7,112C53.3,128,107,160,160,186.7C213.3,213,267,235,320,245.3C373.3,256,427,256,480,234.7C533.3,213,587,171,640,160C693.3,149,747,171,800,192C853.3,213,907,235,960,250.7C1013.3,267,1067,277,1120,250.7C1173.3,224,1227,160,1280,160C1333.3,160,1387,224,1413,256L1440,288L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+} */
+
+.parent-img{
+  background-image: url(./img/for-parents2x2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 550px;
+  margin-bottom: -150px;
+}
+
+.parent-btn{
+  width: 180px;
+}
+
+.parent-wrapper{
+  width: 90%;
+  margin-top: 150px;
+}
+
+.parent-content > p{
+  width: 650px;
+}
+
+.educator-wrapper{
+  width: 85%;
+  margin-top: 200px;
+}
+
+.educator-img{
+  background-image: url(./img/for-teachers2x2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 500px;
+  margin-bottom: -150px;
+}
+
+.educator-section{
+  background-color: #EBFCFF;
+  width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

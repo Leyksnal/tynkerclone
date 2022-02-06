@@ -162,6 +162,75 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className="app-section why-section">
+        <div className="app-section-wrapper why-wrapper">
+          <h2>Why Should Kids Learn to Code with Tynker?</h2>
+          <p>Because <strong>technology is so integrated</strong> into virtually every aspect of our lives, learning about it is <strong>more important than ever</strong>. For kids, our coding platform makes it convenient and fun to gain knowledge that will serve them well throughout their lives. You can count on our <strong>trusted methods</strong> to help them develop and grow their capabilities with computers.</p>
+          <p>Tynker isn’t just for schools and coding camps, though. Parents who value <strong>STEM education</strong> and want their children to know how to learn to code should know that our kids programming platform can be used at home, too. There are individual and family home plans, and our online coding classes for kids are a great way for them to gain the supplemental STEM skills needed for the world of the future.</p>
+        </div>
+
+        <div className="col-wrapper">
+          <div className="col">
+            <h3>CODING BENEFITS</h3>
+            <span>{'>'} Top 10 Reasons Code</span>
+            <span>{'>'} Kids Coding Basics</span>
+            <span>{'>'} Develop 21st Century Skills</span>
+            <span>{'>'} Download eBooks on Coding</span>
+          </div>
+          <div className="col">
+            <h3>CODING GUIDES</h3>
+            <span>{'>'} What is Coding for Kids</span>
+            <span>{'>'} Coding with Minecraft</span>
+            <span>{'>'} Coding with Electronic Kits</span>
+            <span>{'>'} Coding with Connected Toys</span>
+            <span>{'>'} More Coding Resources</span>
+          </div>
+          <div className="col">
+            <h3>TYNKER HIGHLIGHTS</h3>
+            <span>{'>'} What’s New in Tynker?</span>
+            <span>{'>'} COVID-19 Impact report</span>
+            <span>{'>'} Meet our Featured Makers</span>
+            <span>{'>'} Seasonal Coding Projects</span>
+            <span>{'>'} Celebrating Women in STEM</span>
+          </div>
+          <div className="col">
+            <h3>CODING IN SCHOOLS</h3>
+            <span>{'>'} K-12 School Plans</span>
+            <span>{'>'} AP Computer Science Principles</span>
+            <span>{'>'} AP Computer Science A</span>
+            <span>{'>'} Remote Learning</span>
+            <span>{'>'} K-12 Success Stories</span>
+          </div>
+        </div>
+
+        <div className="app-section-wrapper why-wrapperb brand">
+          <h2>Trusted by Leading Brands</h2>
+          <p>Our methods for learning to code all are provided within a safe, moderated community that is built around encouraging students to gain confidence in their abilities and do so without fear of failure.</p>
+        </div>
+        <div className="brand-wrapper">
+          <div className="brand-img1"></div>
+          <div className="brand-img2"></div>
+          <div className="brand-img3"></div>
+          <div className="brand-img4"></div>
+          <div className="brand-img5"></div>
+          <div className="brand-img6"></div>
+        </div>
+        <div className="brand-wrapper brand-wrapper2">
+          <div className="brand-img7"></div>
+          <div className="brand-img8"></div>
+          <div className="brand-img9"></div>
+          <div className="brand-img10"></div>
+          <div className="brand-img11"></div>
+        </div>
+      </div>
+
+      <div className="app-section">
+        <div className="app-section-wrapper community-section">
+          <h2>Join Tynker's Global Community</h2>
+          <button className='hero-btn start-btn parent-btn community-btn'>SIGN UP FREE</button>
+        </div>
+      </div>
     </div>
   );
 }

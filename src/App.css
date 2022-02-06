@@ -497,3 +497,180 @@ header{
   height: 600px;
   margin-right: 60px;
 }
+
+.why-section{
+  background-color: #EBFCFF;
+  margin-top: -5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-wrapper{
+  margin-top: 50px;
+}
+
+.why-wrapper > p{
+  width: 1000px;
+  margin-top: 15px;
+}
+
+.col-wrapper{
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col{
+  background-color: #ffffff;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  height: 350px;
+  box-shadow: 0px 0px 10px 2px #26262763;}
+
+.col > h3{
+  color: #169FB1;
+  font-size: 1.5rem;
+  margin: 65px 0px 0px 0px;
+}
+
+.col > h3, span{
+  margin-left: 40px;
+
+}
+
+.col > span{
+  line-height: 1rem;
+  margin-top: 20px;
+}
+
+.brand > p{
+  width: 1000px;
+  text-align: center;
+  margin-top: 1px;
+}
+
+.brand{
+  margin-top: 100px;
+}
+
+.brand-wrapper{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-wrapper2{
+  width: 65%;
+}
+
+.brand-img1{
+  background-image: url(./img/logo-apple.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img2{
+  background-image: url(./img/logo-googleedu.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img3{
+  background-image: url(./img/logo-microsoft.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img4{
+  background-image: url(./img/logo-pbs.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img5{
+  background-image: url(./img/logo-bbc-learning.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img6{
+  background-image: url(./img/logo-facebook.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img7{
+  background-image: url(./img/logo-lego.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img8{
+  background-image: url(./img/logo-mc.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img9{
+  background-image: url(./img/logo-mattel.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img10{
+  background-image: url(./img/logo-hotwheels.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.brand-img11{
+  background-image: url(./img/logo-barbie.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+}
+
+.community-section{
+  background-image: url(./img/map-blue.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+}
+

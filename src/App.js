@@ -21,7 +21,7 @@ function App() {
             <h2>Coding Made Easy</h2>
             <p>The fun way to learn programming and develop problem-solving & critical thinking skills! Ages 5-18</p>
             <button className='hero-btn'>GET STARTED FOR FREE</button>
-            <h3>At-home plans from <span className='underline'>$9 per month</span></h3>
+            <h3>At-home plans from<span className='underline'>$9 per month</span></h3>
           </div>
           <div className="img"></div>
         </div>
@@ -225,12 +225,48 @@ function App() {
         </div>
       </div>
 
+
       <div className="app-section">
-        <div className="app-section-wrapper community-section">
+        <div className="app-section-wrapper">
           <h2>Join Tynker's Global Community</h2>
-          <button className='hero-btn start-btn parent-btn community-btn'>SIGN UP FREE</button>
+          <button className='hero-btn start-btn parent-btn com-btn'>SIGN UP FREE</button>
         </div>
       </div>
+      <div className="community">
+        <div className="dots">
+          <div className="circle">
+            <h2>Over 7 Billion</h2>
+            <p>lines of code</p>
+          </div>
+        </div>
+        <div className="dot-middle below">
+          <div className="circle">
+            <h2>Over 100 Thousand</h2>
+            <p>schools</p>
+          </div>
+        </div>
+        <div className="dot-top top">
+          <div className="circle">
+            <h2>60 <br /> Million</h2>
+            <p>students</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="sponsors">
+        <div className="sponsors-wrapper">
+            <div className="sponsors-img"></div>
+            <div className="sponsors-img sponsors-img2"></div>
+            <div className="sponsors-img sponsors-img3"></div>
+            <div className="sponsors-img sponsors-img4"></div>
+            <div className="sponsors-img sponsors-img5"></div>
+            <div className="sponsors-img sponsors-img6"></div>
+            <div className="sponsors-img sponsors-img7"></div>
+            <div className="sponsors-img sponsors-img8"></div>
+            <div className="sponsors-img sponsors-img9"></div>
+        </div>
+      </div>
+
     </div>
   );
 }
